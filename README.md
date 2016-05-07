@@ -1,1 +1,1 @@
-# LintCode, A hardware dog's rewind
+# A Hardware Dog's Rewind
