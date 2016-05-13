@@ -15,7 +15,7 @@ public int jump(int[] A) {
     int i = 0;
     while(i < n) {
         // Could reach then break;
-        if(curMax > n -1 ) break;
+        if(curMax >= n -1 ) break;
 
         // Find the nextMAX with in this (one) step
         while(i<= curMax) {
