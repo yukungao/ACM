@@ -1,7 +1,6 @@
 
 /* http://www.lintcode.com/zh-cn/problem/two-sum-ii/ */
-/* Two pointer */
-
+/* Two pointers */
 public class Solution {
     /**
      * @param nums: an array of integer
