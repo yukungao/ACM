@@ -7,6 +7,7 @@ larger amount of money wins.
 
 Could you please decide the first player will win or lose? */
 
+/* Could use memorized search (Top-down idea) */
 
 public class Solution {
     /**
