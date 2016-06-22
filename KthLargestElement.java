@@ -2,7 +2,13 @@
 /* Given an array, find Kth Largest Element */
 
 /* Solution 1: Heapify the array and 2. pop Kth times
-    The time complexity is O(n*lgn) */
+    The time complexity is O(k*lgn + o(n))
+    /* Find Kth largest element */
+    /* If we are using max-heap,
+       Build Heap time O(n) <-- Heapify
+       k*shiftDown <-- klogN;
+       Mem-space O(1)
+*/
     class Solution {
         /*
          * @param k : description of k
